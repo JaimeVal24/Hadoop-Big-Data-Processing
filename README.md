@@ -1,4 +1,4 @@
-##Hadoop Big Data Processing: Wildfire Analysis
+# Hadoop Big Data Processing: Wildfire Analysis
 
 This project implements a big data pipeline to analyze wildfire occurrences in the United States using Apache Hadoop and Spark. It processes large-scale datasets to identify spatial and temporal trends in fire intensity (FRP) across California counties.
 
