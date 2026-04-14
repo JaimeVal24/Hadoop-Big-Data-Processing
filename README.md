@@ -30,10 +30,12 @@ git clone https://github.com/JaimeVal24/Hadoop-Big-Data-Processing.git
 Build the project:
 
 Bash
-mvn clean package
+mvn clean package.
+
 Usage
 1. Data Preparation
 Convert CSV to Parquet and attach county GEOIDs:
+
 
 Bash
 spark-submit --class <MainClass> target/Hadoop-Big-Data-Processing-1.0-SNAPSHOT.jar <input_csv> <county_data> <output_parquet>
